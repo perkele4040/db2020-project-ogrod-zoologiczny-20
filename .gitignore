@@ -7,3 +7,5 @@
 *.pyc
 *.class
 *.log
+/.vs/ProjectSettings.json
+/.vs/slnx.sqlite
