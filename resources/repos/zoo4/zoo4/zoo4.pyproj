@@ -27,6 +27,7 @@
     <Compile Include="zoo4.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="zoo.jpg" />
     <Content Include="zoo4.xaml">
       <SubType>Designer</SubType>
     </Content>

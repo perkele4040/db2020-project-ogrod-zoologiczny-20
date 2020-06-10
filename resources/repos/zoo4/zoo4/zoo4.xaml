@@ -1,6 +1,10 @@
 <Window 
        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
-       Title="zoo4" Height="300" Width="300"> 
-       <Grid></Grid>
+       Title="Zoo Radka i Emila" Height="400" Width="500">
+    <Grid Background="LightCoral">
+        <Button Content="Zwierzeta" HorizontalAlignment="Left" Margin="58,168,0,0" VerticalAlignment="Top" Width="145" Height="41"/>
+        <Button Content="Bilety" HorizontalAlignment="Left" Margin="58,98,0,0" VerticalAlignment="Top" Width="145" Height="41" Click="Button_Click"/>
+        <Button Content="Pracownicy" HorizontalAlignment="Left" Margin="58,238,0,0" VerticalAlignment="Top" Width="145" Height="41"/>
+    </Grid>
 </Window> 
