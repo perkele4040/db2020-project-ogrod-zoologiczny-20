@@ -24,9 +24,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Zwierzeta.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="zoo4.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Zwierzeta.xaml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="zoo.jpg" />
     <Content Include="zoo4.xaml">
       <SubType>Designer</SubType>

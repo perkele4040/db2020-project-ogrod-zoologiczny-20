@@ -3,9 +3,9 @@ import clr
 clr.AddReference('System.Data')
 from System.Data import SqlClient
 from System.Windows import Application, Window
+from Zwierzeta import *
 
-conn = SqlClient.SqlConnection("Server=sql7.freemysqlhosting.net;Database=sql7343753;UID=sql7343753;PWD=JGWVXubSX1")
-conn.Open()
+
 
 class MyWindow(Window):
     def __init__(self):
@@ -13,6 +13,8 @@ class MyWindow(Window):
 
         
     def Button_Click(self, sender, e):
+        form = Zwierzeta()
+        form.Show()
         pass
 
 
